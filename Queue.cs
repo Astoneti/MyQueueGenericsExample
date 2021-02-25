@@ -9,7 +9,7 @@ namespace MyQueueGenericsExample
     {
         private int size;        // текущий размер стека
         private List<T> data;
-        public int Count { get { return data.Count; } }
+        public int Count { get { return data.Count; } } //или так можно записать public int Count => data.Count;
         public Queue ()
         {
             data = new List<T>();
